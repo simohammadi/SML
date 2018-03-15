@@ -72,3 +72,5 @@ gbm.class.stc <- ifelse(gbm.label.stc<0.5,'dislike','like')
 #converting the data to binary for submission
 gbm.binary <- ifelse(gbm.class.stc == "dislike",0,1)
 
+new line
+
